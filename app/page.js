@@ -66,7 +66,7 @@ export default function Home() {
       singer: 'Hardwell, Maddix',
       link: '/bella.mp3',
       songImg: '/bella_img.jpg', // Add the background image path for this song
-      bgColor:'#e0949d'
+      bgColor:'#e38d8d'
     },
   ];
 
@@ -81,7 +81,7 @@ export default function Home() {
           {/* INNER CONTAINER */}
           <div className='p-4 text-center m-auto flex-col h-[80%] flex justify-between w-fit'>
             <div className='text-xl md:text-2xl text-gray-900'>{currentSong.name}</div>
-            <div className='text-base md:text-lg text-gray-600 -mt-12 capitalize'>{currentSong.singer}</div>
+            <div className='text-base md:text-lg text-gray-600 -mt-12 capitalize c-f'>{currentSong.singer}</div>
             
             <div
               className={`w-[195px] h-[195px] md:w-[230px] md:h-[230px] rounded-full bgImg shadow-lg shadow-gray-800 ${!music ? 'img_stop_rotate' : 'img_rotate'}`}
